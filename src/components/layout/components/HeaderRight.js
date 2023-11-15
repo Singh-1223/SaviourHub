@@ -1,3 +1,4 @@
+
 import styled from 'styled-components';
 import Brightness7Icon from '@mui/icons-material/Brightness7';
 import DarkModeIcon from '@mui/icons-material/DarkMode';
@@ -8,7 +9,7 @@ import Wallet from './Wallet';
 
 const HeaderRight = () => {
   const ThemeToggler = useContext(App);
-
+   console.log('themchek',ThemeToggler);
   return (
     <HeaderRightWrapper>
       <Wallet />
